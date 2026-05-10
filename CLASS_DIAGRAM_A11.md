@@ -1,4 +1,4 @@
-# Updated Class Diagram for Assignment 11
+# Class Diagram for Assignment 11
 
 ```mermaid
 classDiagram
