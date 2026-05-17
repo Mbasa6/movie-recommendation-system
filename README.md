@@ -5,6 +5,8 @@ The Movie Recommendation System is a data science application that suggests movi
 
 The system analyzes movie datasets and user behavior to generate personalized recommendations using machine learning techniques.
 
+---
+
 ## Project Goals
 The goal of this project is to design and implement a recommendation system that improves the movie discovery experience for users.
 
@@ -13,14 +15,19 @@ The system will:
 - Learn user preferences
 - Generate personalized movie suggestions
 
+---
+
 ## Technologies
-The system will use the following technologies:
+The system uses the following technologies:
 
 - Python
+- FastAPI
 - Machine Learning (Collaborative Filtering / Similarity Models)
 - MovieLens Dataset
-- Simple Web Interface (Flask or Streamlit)
+- Pytest
 - GitHub for version control
+
+---
 
 ## Documentation
 
@@ -59,12 +66,36 @@ Project documentation is organized by assignment:
 - [Class Diagram](CLASS_DIAGRAM.md)
 - [Reflection](REFLECTION_A9.md)
 
+### Assignment 10
+- [Creational Patterns](creational_patterns/)
+- [Tests](tests/)
+- [Changelog](CHANGELOG.md)
+
+### Assignment 11
+- [Repositories](repositories/)
+- [Repository Factory](factories/)
+- [Repository Tests](tests/)
+
+### Assignment 12
+- [Service Layer](services/)
+- [REST API](api/)
+- [API Documentation](docs/API_DOCUMENTATION.md)
+- [Swagger Screenshot](docs/swagger-ui-screenshot.png)
+
+---
+
 ## Expected Features
 
 - User login and profile
 - Movie rating system
 - Personalized movie recommendations
 - Movie search and filtering
+- REST API endpoints
+- Swagger/OpenAPI documentation
+- Repository pattern implementation
+- Service layer business logic
+
+---
 
 ## Assignment 10
 
@@ -94,9 +125,59 @@ The tests verify:
 
 All tests passed successfully.
 
-### Project Structure
+---
 
-src/
-creational_patterns/
-tests/
-CHANGELOG.md
+## Assignment 11
+
+### Repository Pattern
+The repository pattern was implemented to separate business logic from storage logic.
+
+Generic repositories were used to reduce duplication and improve maintainability.
+
+### In-Memory Storage
+HashMap/Dictionary-based repositories were implemented for:
+- Movies
+- Users
+
+### Abstraction Mechanism
+A Repository Factory was implemented to support future database integration without changing service logic.
+
+### Future-Proofing
+The architecture supports adding:
+- Database repositories
+- File system repositories
+- Cloud-based storage
+
+---
+
+## Assignment 12
+
+### Service Layer
+A dedicated service layer was implemented to handle business logic separately from repositories and API routes.
+
+### REST API
+A REST API was developed using FastAPI.
+
+Implemented endpoints include:
+- Fetch movies
+- Create movies
+- Checkout movies
+
+### Swagger/OpenAPI
+FastAPI automatically generates Swagger/OpenAPI documentation.
+
+Swagger UI is available at:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+### Testing
+Integration and service tests were implemented using:
+- pytest
+- FastAPI TestClient
+- httpx
+
+All tests executed successfully.
+
+---
