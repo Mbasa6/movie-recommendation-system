@@ -25,6 +25,7 @@ The system uses the following technologies:
 - Machine Learning (Collaborative Filtering / Similarity Models)
 - MovieLens Dataset
 - Pytest
+- GitHub Actions
 - GitHub for version control
 
 ---
@@ -82,6 +83,15 @@ Project documentation is organized by assignment:
 - [API Documentation](docs/API_DOCUMENTATION.md)
 - [Swagger Screenshot](docs/swagger-ui-screenshot.png)
 
+### Assignment 13
+- [CI/CD Workflow](.github/workflows/ci.yml)
+- [Branch Protection Documentation](PROTECTION.md)
+- [Screenshots](.github/screenshots/)
+  - [Branch Protection](.github/screenshots/branch-protection.png)
+  - [PR Blocked by Failing Tests](.github/screenshots/pr-blocked-failed-tests.png)
+  - [GitHub Actions Success](.github/screenshots/github-actions-success.png)
+  - [Artifact Generated](.github/screenshots/artifact-generated.png)
+
 ---
 
 ## Expected Features
@@ -94,6 +104,8 @@ Project documentation is organized by assignment:
 - Swagger/OpenAPI documentation
 - Repository pattern implementation
 - Service layer business logic
+- Automated CI/CD pipeline
+- Branch protection and pull request validation
 
 ---
 
@@ -170,14 +182,3 @@ Swagger UI is available at:
 
 ```text
 http://127.0.0.1:8000/docs
-```
-
-### Testing
-Integration and service tests were implemented using:
-- pytest
-- FastAPI TestClient
-- httpx
-
-All tests executed successfully.
-
----
