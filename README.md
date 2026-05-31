@@ -37,6 +37,16 @@ The system uses the following technologies:
 ```bash
 git clone https://github.com/Mpumlwana/movie-recommendation-system.git
 
+## Features for Contribution
+
+| Feature | Difficulty | Status |
+|----------|------------|---------|
+| Genre Filter | Easy | Open |
+| Watchlist | Medium | Planned |
+| Redis Cache | Advanced | Planned |
+| UI Improvements | Medium | Open |
+| Additional Tests | Easy | Open |
+
 ## Documentation
 
 Project documentation is organized by assignment:
