@@ -109,6 +109,13 @@ Project documentation is organized by assignment:
   - [GitHub Actions Success](.github/screenshots/github-actions-success.png)
   - [Artifact Generated](.github/screenshots/artifact-generated.png)
 
+### Assignment 14
+- [Contribution Guidelines](CONTRIBUTING.md)
+- [Project Roadmap](ROADMAP.md)
+- [Voting Results](VOTING_RESULTS.md)
+- [Reflection](REFLECTION_A14.md)
+
+
 ---
 
 ## Expected Features
@@ -199,3 +206,26 @@ Swagger UI is available at:
 
 ```text
 http://127.0.0.1:8000/docs
+
+## Assignment 14
+
+### Open Source Collaboration
+
+This repository was prepared for open-source collaboration by adding:
+
+- CONTRIBUTING.md
+- ROADMAP.md
+- MIT License
+- good-first-issue labels
+- feature-request labels
+
+### Repository Engagement
+
+The project was shared with classmates for peer review and feedback through GitHub stars and forks.
+
+### Contributor Resources
+
+- CONTRIBUTING.md
+- ROADMAP.md
+- VOTING_RESULTS.md
+- REFLECTION_A14.md
