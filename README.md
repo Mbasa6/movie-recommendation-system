@@ -28,7 +28,14 @@ The system uses the following technologies:
 - GitHub Actions
 - GitHub for version control
 
+
 ---
+
+## Getting Started
+
+### Clone Repository
+```bash
+git clone https://github.com/Mpumlwana/movie-recommendation-system.git
 
 ## Documentation
 
